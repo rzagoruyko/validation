@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Validation</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="main.js" defer></script>
+</head>
+<body>
+  <form action="#" class="form" data-main-form>
+    <div class="row" data-validate-row>
+      <label>
+        <input type="checkbox" data-require="checkbox" />
+        <span class="name">checkbox</span>
+      </label>
+    </div>
+    <div class="row" data-validate-row>
+      <label>
+        <input type="radio" name="key1" data-require="radio" />
+        <span class="name">radio</span>
+      </label>
+      <label>
+        <input type="radio" name="key1" data-require="radio" />
+        <span class="name">radio</span>
+      </label>
+      <label>
+        <input type="radio" name="key1" data-require="radio" />
+        <span class="name">radio</span>
+      </label>
+    </div>
+    <div class="row" data-validate-row>
+      <label>
+        <input type="radio" name="key2" data-require="radio" />
+        <span class="name">radio</span>
+      </label>
+      <label>
+        <input type="radio" name="key2" data-require="radio" />
+        <span class="name">radio</span>
+      </label>
+      <label>
+        <input type="radio" name="key2" data-require="radio" />
+        <span class="name">radio</span>
+      </label>
+    </div>
+    <div class="row" data-validate-row>
+      <select data-require="select">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+      </select>
+    </div>
+    <div class="row" data-validate-row>
+      <input type="text" data-require="text" placeholder="Simple text" />
+    </div>
+    <div class="row" data-validate-row>
+      <input type="email" data-require="email" placeholder="Email" />
+    </div>
+    <div class="row" data-validate-row>
+      <input type="number" data-require="number" placeholder="Number" />
+    </div>
+    <div class="row" data-validate-row>
+      <input type="password" data-require="password" placeholder="Password" />
+    </div>
+    <div class="row" data-validate-row>
+      <input type="password" data-require="confirm-password" placeholder="Confirm password" />
+    </div>
+    <input type="submit" value="submit" />
+  </form>
+</body>

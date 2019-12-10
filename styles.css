@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+[type="text"],
+[type="email"],
+[type="number"],
+[type="password"]{
+  height: 30px;
+  width: 200px;
+  border: 1px solid #000;
+}
+
+[type="checkbox"],
+[type="radio"]{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+select{
+  width: 200px;
+  height: 30px;
+  border: 1px solid #000;
+}
+
+label{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.form{
+  position: relative;
+}
+
+.row{
+  margin: 0 0 10px;
+}
+
+.js-error [type="text"],
+.js-error [type="email"],
+.js-error select,
+.js-error [type="number"],
+.js-error [type="password"]{
+  border: 1px solid #f00;
+}
+
+.js-error .name{
+  color: #f00;
+}
